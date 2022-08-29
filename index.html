@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>期末</title>
+  </head>
+  <body>
+    <div class="cover">
+      <div class="spinner-border text-success" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+    <div class="progress fixed-top h8 z1">
+      <div class="progress-bar progress-bar-striped bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <div class="container">
+      <header>
+        <!--\<div class="btn btn-info btn-send">送出</div>-->
+      </header>
+  
+      <nav>
+        <div class="btn btn-success btn-prev">上一頁</div>
+        <div class="btn btn-warning btn-send">送出</div>
+        <div class="btn btn-success btn-next">下一頁</div>
+      </nav>
+  
+      <section>
+        <article id="article1" class="article article1">
+          <h1>無科學根據的心理測驗</h1>
+          <p>嗨，歡迎來到本心理測驗。請準備一杯溫開水、一張舒服的椅子、一顆放輕鬆的心，以及最重要的超能力－－你的想像力！填答時請以第一個聯想到的事物為準。</p>
+          <div class="input-group mb-4 mt-5 main-group">
+            <span class="input-group-text">如何稱呼你</span>
+            <input type="text" class="form-control" id="nickName" name="nickName" placeholder="請輸入你的暱稱">
+          </div>
+          <div>
+            準備好後即可按下一頁開始作答。
+          </div>
+        </article>
+
+        <article id="article2" class="article article2 mb-4">
+          <p>今天是個好天氣，你走進了森林裡，面前突然出現了一隻動物，你認為是</p>
+          
+          <div class="input-group mb-3 main-group">
+            <!--<span class="input-group-text"></span> 動物名稱-->
+            <input type="text" class="form-control" id="animalName1" name="animalName1" placeholder="請輸入一個動物名稱">
+          </div>
+        </article>
+
+        <article id="article3" class="article article3 mb-4">
+          <p>前方的道路上有一面牆，你認為那面牆</p>
+
+          <div class="input-group mb-3 main-group">
+            <label class="input-group-text" for="wallH1">高度如何</label>
+            <select class="from-select" name="wallH1" id="wallH1">
+              <option value="none" disabled selected hidden>請選擇高度</option>
+              <option value="高到看不見天際">高到看不見天際</option>
+              <option value="有點高">有點高</option>
+              <option value="剛剛好">剛剛好</option>
+              <option value="有點低">有點低</option>
+              <option value="低到跟沒有一樣">低到跟沒有一樣</option>
+            </select>
+          </div>
+
+          <div class="main-group">
+            <div class="input-group mb-3">
+              <span class="input-group-text">是什麼材質</span>
+              <div class="input-group-text bg-white flex-fill">
+                <div class="input-group">
+                  <div class="input-group-text bg-white">
+                    <input class="form-check-input mt-0" type="radio" name="wallM1" id="wallM1-1" value="金屬">
+                  </div>
+                  <label class="input-group-text flex-fill" for="wallM1-1">金屬</label>
+                </div>
+                <div class="input-group">
+                  <div class="input-group-text bg-white">
+                    <input class="form-check-input mt-0" type="radio" name="wallM1" id="wallM1-2" value="水泥">
+                  </div>
+                  <label class="input-group-text flex-fill" for="wallM1-2">水泥</label>
+                </div>
+                <div class="input-group">
+                  <div class="input-group-text bg-white">
+                    <input class="form-check-input mt-0" type="radio" name="wallM1" id="wallM1-3" value="磚頭">
+                  </div>
+                  <label class="input-group-text flex-fill" for="wallM1-3">磚頭</label>
+                </div>
+                <div class="input-group">
+                  <div class="input-group-text bg-white">
+                    <input class="form-check-input mt-0" type="radio" name="wallM1" id="wallM1-4" value="石頭">
+                  </div>
+                  <label class="input-group-text flex-fill" for="wallM1-4">石頭</label>
+                </div>
+                <div class="input-group">
+                  <div class="input-group-text bg-white">
+                    <input class="form-check-input mt-0" type="radio" name="wallM1" id="wallM1-5" value="木頭">
+                  </div>
+                  <label class="input-group-text flex-fill" for="wallM1-5">木頭</label>
+                </div>
+              </div>           
+            </div>
+          </div> 
+
+          <div class="main-group">
+            <div class="input-group mb-3">
+              <span class="input-group-text">容易攀爬嗎</span>
+              <div class="input-group-text bg-white flex-fill">
+                <div class="input-group flex-column">
+                  <div class="input-group">
+                    <div class="input-group-text bg-white">
+                      <input class="form-check-input mt-0" type="radio" name="wallC1" id="wallC1-1" value="非常容易">
+                    </div>
+                    <label class="input-group-text flex-fill" for="wallC1-1">非常容易</label>
+                  </div>
+                  <div class="input-group">
+                    <div class="input-group-text bg-white">
+                      <input class="form-check-input mt-0" type="radio" name="wallC1" id="wallC1-2" value="有點難爬">
+                    </div>
+                    <label class="input-group-text flex-fill" for="wallC1-2">有點難爬</label>
+                  </div>
+                  <div class="input-group">
+                    <div class="input-group-text bg-white">
+                      <input class="form-check-input mt-0" type="radio" name="wallC1" id="wallC1-3" value="超級難爬">
+                    </div>
+                    <label class="input-group-text flex-fill" for="wallC1-3">超級難爬</label>
+                  </div>
+                </div>
+              </div>           
+            </div>
+          </div>          
+        </article>
+
+        <article id="article4" class="article article4 mb-4">  
+          <p>牆上有一道門，你認為那道門</p>
+
+          <div class="main-group">
+            <div class="input-group mb-3">
+              <span class="input-group-text">是什麼材質</span>
+              <div class="input-group-text bg-white flex-fill">
+                <div class="input-group">
+                  <div class="input-group-text bg-white">
+                    <input class="form-check-input mt-0" type="radio" name="doorM1" id="doorM1-1" value="金屬">
+                  </div>
+                  <label class="input-group-text flex-fill" for="doorM1-1">金屬</label>
+                </div>
+                <div class="input-group">
+                  <div class="input-group-text bg-white">
+                    <input class="form-check-input mt-0" type="radio" name="doorM1" id="doorM1-2" value="水泥">
+                  </div>
+                  <label class="input-group-text flex-fill" for="doorM1-2">水泥</label>
+                </div>
+                <div class="input-group">
+                  <div class="input-group-text bg-white">
+                    <input class="form-check-input mt-0" type="radio" name="doorM1" id="doorM1-3" value="磚頭">
+                  </div>
+                  <label class="input-group-text flex-fill" for="doorM1-3">磚頭</label>
+                </div>
+                <div class="input-group">
+                  <div class="input-group-text bg-white">
+                    <input class="form-check-input mt-0" type="radio" name="doorM1" id="doorM1-4" value="石頭">
+                  </div>
+                  <label class="input-group-text flex-fill" for="doorM1-4">石頭</label>
+                </div>
+                <div class="input-group">
+                  <div class="input-group-text bg-white">
+                    <input class="form-check-input mt-0" type="radio" name="doorM1" id="doorM1-5" value="木頭">
+                  </div>
+                  <label class="input-group-text flex-fill" for="doorM1-5">木頭</label>
+                </div>
+              </div>           
+            </div>
+          </div> 
+
+          <p>有什麼樣的鎖或門把（複選）</p>
+          <div class="input-group flex-fill flex-column bg-white main-group">
+            <div class="input-group">
+              <div class="input-group-text bg-white">
+                <input class="form-check-input mt-0" type="checkbox" name="doorD1" id="doorD1-1" value="鐵鍊纏繞">
+              </div>
+              <label for="doorD1-1" class="input-group-text flex-fill">鐵鍊纏繞</label>
+            </div>
+            <div class="input-group">
+              <div class="input-group-text bg-white">
+                <input class="form-check-input mt-0" type="checkbox" name="doorD1" id="doorD1-2" value="長滿藤蔓">
+              </div>
+              <label for="doorD1-2" class="input-group-text flex-fill">長滿藤蔓</label>
+            </div>
+            <div class="input-group">
+              <div class="input-group-text bg-white">
+                <input class="form-check-input mt-0" type="checkbox" name="doorD1" id="doorD1-3" value="有巨大鎖頭">
+              </div>
+              <label for="doorD1-3" class="input-group-text flex-fill">有巨大鎖頭</label>
+            </div>
+            <div class="input-group">
+              <div class="input-group-text bg-white">
+                <input class="form-check-input mt-0" type="checkbox" name="doorD1" id="doorD1-4" value="有電子密碼鎖">
+              </div>
+              <label for="doorD1-4" class="input-group-text flex-fill">有電子密碼鎖</label>
+            </div>
+            <div class="input-group">
+              <div class="input-group-text bg-white">
+                <input class="form-check-input mt-0" type="checkbox" name="doorD1" id="doorD1-5" value="有喇叭鎖">
+              </div>
+              <label for="doorD1-5" class="input-group-text flex-fill">有喇叭鎖</label>
+            </div>
+            <div class="input-group">
+              <div class="input-group-text bg-white">
+                <input class="form-check-input mt-0" type="checkbox" name="doorD1" id="doorD1-6" value="沒有門把">
+              </div>
+              <label for="doorD1-6" class="input-group-text flex-fill">沒有門把</label>
+            </div>
+            <div class="input-group">
+              <div class="input-group-text bg-white">
+                <input class="form-check-input mt-0" type="checkbox" name="doorD1" id="doorD1-7" value="其他">
+              </div>
+              <label for="doorD1-7-text" class="input-group-text">其他</label>
+              <input type="text" class="form-control" id="doorD1-7-text" name="doorD1-7-text" placeholder="請詳述">
+            </div>
+          </div>
+
+        </article>
+
+        <article id="article5" class="article article5 mb-4">
+          <p>通過那面牆後，後方又有另一面牆，你認為第二面牆</p>
+
+          <div class="input-group mb-3 main-group">
+            <label class="input-group-text" for="wallH2">高度如何</label>
+            <select class="from-select" name="wallH2" id="wallH2">
+              <option value="none" disabled selected hidden>請選擇高度</option>
+              <option value="高到看不見天際">高到看不見天際</option>
+              <option value="有點高">有點高</option>
+              <option value="剛剛好">剛剛好</option>
+              <option value="有點低">有點低</option>
+              <option value="低到跟沒有一樣">低到跟沒有一樣</option>
+            </select>
+          </div>
+
+          <div class="main-group">
+            <div class="input-group mb-3">
+              <span class="input-group-text">是什麼材質</span>
+              <div class="input-group-text bg-white flex-fill">
+                <div class="input-group">
+                  <div class="input-group-text bg-white">
+                    <input class="form-check-input mt-0" type="radio" name="wallM2" id="wallM2-1" value="金屬">
+                  </div>
+                  <label class="input-group-text flex-fill" for="wallM2-1">金屬</label>
+                </div>
+                <div class="input-group">
+                  <div class="input-group-text bg-white">
+                    <input class="form-check-input mt-0" type="radio" name="wallM2" id="wallM2-2" value="水泥">
+                  </div>
+                  <label class="input-group-text flex-fill" for="wallM2-2">水泥</label>
+                </div>
+                <div class="input-group">
+                  <div class="input-group-text bg-white">
+                    <input class="form-check-input mt-0" type="radio" name="wallM2" id="wallM2-3" value="磚頭">
+                  </div>
+                  <label class="input-group-text flex-fill" for="wallM2-3">磚頭</label>
+                </div>
+                <div class="input-group">
+                  <div class="input-group-text bg-white">
+                    <input class="form-check-input mt-0" type="radio" name="wallM2" id="wallM2-4" value="石頭">
+                  </div>
+                  <label class="input-group-text flex-fill" for="wallM2-4">石頭</label>
+                </div>
+                <div class="input-group">
+                  <div class="input-group-text bg-white">
+                    <input class="form-check-input mt-0" type="radio" name="wallM2" id="wallM2-5" value="木頭">
+                  </div>
+                  <label class="input-group-text flex-fill" for="wallM2-5">木頭</label>
+                </div>
+              </div>
+            </div>           
+          </div>
+
+        <div class="main-group">
+          <div class="input-group mb-3">
+            <span class="input-group-text">容易攀爬嗎</span>
+            <div class="input-group-text bg-white flex-fill">
+              <div class="input-group flex-column">
+                <div class="input-group">
+                  <div class="input-group-text bg-white">
+                    <input class="form-check-input mt-0" type="radio" name="wallC2" id="wallC2-1" value="非常容易">
+                  </div>
+                  <label class="input-group-text flex-fill" for="wallC2-1">非常容易</label>
+                </div>
+                <div class="input-group">
+                  <div class="input-group-text bg-white">
+                    <input class="form-check-input mt-0" type="radio" name="wallC2" id="wallC2-2" value="有點難爬">
+                  </div>
+                  <label class="input-group-text flex-fill" for="wallC2-2">有點難爬</label>
+                </div>
+                <div class="input-group">
+                  <div class="input-group-text bg-white">
+                    <input class="form-check-input mt-0" type="radio" name="wallC2" id="wallC2-3" value="超級難爬">
+                  </div>
+                  <label class="input-group-text flex-fill" for="wallC2-3">超級難爬</label>
+                </div>
+              </div>        
+            </div>
+          </div>          
+        </article>
+
+        <article id="article6" class="article article6 mb-4">  
+          <p>第二面牆上有一道門，你認為那道門</p>
+
+          <div class="main-group">
+            <div class="input-group mb-3">
+              <span class="input-group-text">是什麼材質</span>
+              <div class="input-group-text bg-white flex-fill">
+                <div class="input-group">
+                  <div class="input-group-text bg-white">
+                    <input class="form-check-input mt-0" type="radio" name="doorM2" id="doorM2-1" value="金屬">
+                  </div>
+                  <label class="input-group-text flex-fill" for="doorM2-1">金屬</label>
+                </div>
+                <div class="input-group">
+                  <div class="input-group-text bg-white">
+                    <input class="form-check-input mt-0" type="radio" name="doorM2" id="doorM2-2" value="水泥">
+                  </div>
+                  <label class="input-group-text flex-fill" for="doorM2-2">水泥</label>
+                </div>
+                <div class="input-group">
+                  <div class="input-group-text bg-white">
+                    <input class="form-check-input mt-0" type="radio" name="doorM2" id="doorM2-3" value="磚頭">
+                  </div>
+                  <label class="input-group-text flex-fill" for="doorM2-3">磚頭</label>
+                </div>
+                <div class="input-group">
+                  <div class="input-group-text bg-white">
+                    <input class="form-check-input mt-0" type="radio" name="doorM2" id="doorM2-4" value="石頭">
+                  </div>
+                  <label class="input-group-text flex-fill" for="doorM2-4">石頭</label>
+                </div>
+                <div class="input-group">
+                  <div class="input-group-text bg-white">
+                    <input class="form-check-input mt-0" type="radio" name="doorM2" id="doorM2-5" value="木頭">
+                  </div>
+                  <label class="input-group-text flex-fill" for="doorM2-5">木頭</label>
+                </div>
+              </div>         
+            </div>
+          </div> 
+
+          <p>有什麼樣的鎖或門把（複選）</p>
+          <div class="input-group flex-fill flex-column bg-white main-group">
+            <div class="input-group">
+              <div class="input-group-text bg-white">
+                <input class="form-check-input mt-0" type="checkbox" name="doorD2" id="doorD2-1" value="鐵鍊纏繞">
+              </div>
+              <label for="doorD2-1" class="input-group-text flex-fill">鐵鍊纏繞</label>
+            </div>
+            <div class="input-group">
+              <div class="input-group-text bg-white">
+                <input class="form-check-input mt-0" type="checkbox" name="doorD2" id="doorD2-2" value="長滿藤蔓">
+              </div>
+              <label for="doorD2-2" class="input-group-text flex-fill">長滿藤蔓</label>
+            </div>
+            <div class="input-group">
+              <div class="input-group-text bg-white">
+                <input class="form-check-input mt-0" type="checkbox" name="doorD2" id="doorD2-3" value="有巨大鎖頭">
+              </div>
+              <label for="doorD2-3" class="input-group-text flex-fill">有巨大鎖頭</label>
+            </div>
+            <div class="input-group">
+              <div class="input-group-text bg-white">
+                <input class="form-check-input mt-0" type="checkbox" name="doorD2" id="doorD2-4" value="有電子密碼鎖">
+              </div>
+              <label for="doorD2-4" class="input-group-text flex-fill">有電子密碼鎖</label>
+            </div>
+            <div class="input-group">
+              <div class="input-group-text bg-white">
+                <input class="form-check-input mt-0" type="checkbox" name="doorD2" id="doorD2-5" value="有喇叭鎖">
+              </div>
+              <label for="doorD2-5" class="input-group-text flex-fill">有喇叭鎖</label>
+            </div>
+            <div class="input-group">
+              <div class="input-group-text bg-white">
+                <input class="form-check-input mt-0" type="checkbox" name="doorD2" id="doorD2-6" value="沒有門把">
+              </div>
+              <label for="doorD2-6" class="input-group-text flex-fill">沒有門把</label>
+            </div>
+            <div class="input-group">
+              <div class="input-group-text bg-white">
+                <input class="form-check-input mt-0" type="checkbox" name="doorD2" id="doorD2-7" value="其他">
+              </div>
+              <label for="doorD2-7-text" class="input-group-text">其他</label>
+              <input type="text" class="form-control" id="doorD2-7-text" name="doorD2-7-text" placeholder="請詳述">
+            </div>
+          </div>
+        </article>
+
+        <article id="article7" class="article article7 mb-4">
+          <p>通過第二面牆後，有一間小木屋，進去後看到正中央有一張桌子，你認為</p>
+          <div class="input-group mb-3 main-group">
+            <label class="input-group-text" for="chairNum">有幾張椅子</label>
+            <select class="from-select" name="chairNum" id="chairNum">
+              <option value="none" disabled selected hidden>請選擇數量</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="大於5">大於5</option>
+            </select>
+          </div>
+
+          <div class="main-group">
+            <div class="input-group mb-3">
+              <span class="input-group-text">桌上有一張桌巾是</span>
+              <div class="input-group-text bg-white flex-fill">
+                <div class="input-group flex-column">
+                  <div class="input-group">
+                    <div class="input-group-text bg-white">
+                      <input class="form-check-input mt-0" type="radio" name="doily" id="doilyFront" value="正著放">
+                    </div>
+                    <label class="input-group-text flex-fill" for="doilyFront">正著放</label>
+                  </div>
+                  <div class="input-group">
+                    <div class="input-group-text bg-white">
+                      <input class="form-check-input mt-0" type="radio" name="doily" id="doilyBack" value="斜著放">
+                    </div>
+                    <label class="input-group-text flex-fill" for="doilyBack">斜著放</label>
+                  </div>
+                </div>
+              </div>           
+            </div>
+          </div>  
+
+        </article>
+
+        <article id="article8" class="article article8 mb-4"> 
+          <p>小木屋有個後門，走出去後你看見了斜坡，那麼那個坡是</p>
+
+          <div class="main-group">
+            <div class="input-group mb-3">
+              <span class="input-group-text">方向</span>
+              <div class="input-group-text bg-white flex-fill">
+                <div class="input-group flex-column">
+                  <div class="input-group">
+                    <div class="input-group-text bg-white">
+                      <input class="form-check-input mt-0" type="radio" name="hillD" id="uphill" value="上坡">
+                    </div>
+                    <label class="input-group-text flex-fill" for="uphill">上坡</label>
+                  </div>
+                  <div class="input-group">
+                    <div class="input-group-text bg-white">
+                      <input class="form-check-input mt-0" type="radio" name="hillD" id="downhill" value="下坡">
+                    </div>
+                    <label class="input-group-text flex-fill" for="downhill">下坡</label>
+                  </div>
+                </div>
+              </div>           
+            </div>
+          </div> 
+
+          <div class="input-group mb-3 main-group">
+            <label class="input-group-text" for="hillSlope">坡度有多斜</label>
+            <select class="from-select" name="hillSlope" id="hillSlope">
+              <option value="none" disabled selected hidden>請選擇坡度</option>
+              <option value="平緩好走">平緩好走</option>
+              <option value="有點陡峭不好走">有點陡峭不好走</option>
+              <option value="超級陡峭超難爬">超級陡峭超難走</option>
+            </select>
+          </div>          
+        </article>
+
+        <article id="article9" class="article article9 mb-4"> 
+          <p>坡道的盡頭有一隻動物，是什麼</p>
+          <div class="input-group mb-3 main-group">
+            <input type="text" class="form-control" id="animalName2" name="animalName2"  placeholder="請輸入一個動物名稱">
+          </div>
+        </article>
+        
+        <article id="article10" class="article article10">
+          
+        </article>
+        <footer></footer>
+      </section>
+    </div>
+ 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+
+  <template id="Template01" style="display: none;">
+    <div class="tip">
+      <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+      <span>此為必填項目</span>
+    </div>
+  </template>
+
+  <template id="Template02" style="display: none;">
+    <h3>
+      Hi！NICKNAME，感謝你填寫完這份不科學的心理測驗
+    </h3>
+    <h4>
+      以下為測驗結果：
+    </h4>
+    <p>
+      在森林中遇到的第一隻動物代表你的外在形象，你認為自己是ANI_NAME1。
+    </p>
+    <p>
+      第一道牆是你對陌生人的警戒心，你對陌生人的心防WALLH1又WALLM1，並且WALLC1。通過第一道牆的門則代表了是否容易與陌生人成為朋友，你的心門DOORM1，門上DOORD1。
+    </p>
+    <p>
+      第二道牆是你對朋友的信賴度，你對朋友的心防WALLH2又WALLM2，並且WALLC2。通過第二道牆的門則代表了是否容易與朋友成為摯友，你的心門DOORM2，門上DOORD2。
+    </p>
+    <p>
+      小木屋中的椅子數量代表你希望未來家庭中有CHAIR_NUM位成員，選擇將桌巾DOILY的你是個DOILY_MEANING的人。
+    </p>
+    <p>
+      斜坡代表感情生活是否順利，你的戀愛是HILLSLOPE的HILLD，而你喜歡的人的形象是ANI_NAME2。
+    </p>
+    <br>
+    <div>
+      <a href="./list.html">查看其他人的結果</a>
+    </div>
+  </template>
+</html>

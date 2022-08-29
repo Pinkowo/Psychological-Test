@@ -1,0 +1,24 @@
+nickName
+
+animalName1
+animalName2
+
+wallH1
+wallM1
+wallC1
+
+doorM1
+doorD1 []
+
+wallH2
+wallM2
+wallC2
+
+doorM2
+doorD2 []
+
+chairNum
+doily
+
+hillD
+hillSlope
